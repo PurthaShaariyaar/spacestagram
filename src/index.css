@@ -88,7 +88,6 @@ main {
 
 .loading {
   text-align: center;
-  font-size: 3rem;
   color: rgb(12, 66, 152);
   position: fixed;
   top: 50%;
@@ -98,8 +97,8 @@ main {
 }
 
 .nasa-icon {
-  width: 100px; 
-  height: 100px;
+  width: 5rem; 
+  height: 5rem;
 }
 
 .heart {
