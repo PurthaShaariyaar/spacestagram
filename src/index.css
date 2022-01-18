@@ -13,15 +13,29 @@ code {
     monospace;
 }
 
-h1 {
-  font-size: 2rem;
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
-.container {
-  width: 600px;
+/* section */
+.section {
+  width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
-  display: grid;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+main {
+  width: 90vw;
+  max-width: 600px;
+  margin: 2rem auto;
 }
 
 .card {
@@ -59,6 +73,7 @@ h1 {
 
 .spacestagram p {
     color: rgb(125, 125, 125);
+    margin: 0;
 }
 
 .information {
@@ -91,4 +106,3 @@ h1 {
   margin-left: 8px;
   font-size: 1.8rem;
 }
-
